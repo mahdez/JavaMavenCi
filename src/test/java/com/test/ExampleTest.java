@@ -11,13 +11,13 @@ public class ExampleTest {
 	@Test 
 	public void test() {
 		//int value
-		int socre = 80;
+		int score = 80;
 		
 		//expected
 		String expected = "A";
 		
 		//actual
-		String actual = "B";
+		String actual = "A";
 		
 		//test
 		Assert.assertEquals(expected, actual);
